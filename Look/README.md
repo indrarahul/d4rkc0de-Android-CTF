@@ -1,4 +1,3 @@
-# Look
-## 20
+# Look\n 20
 
 > Look Closely
