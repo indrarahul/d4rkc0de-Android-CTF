@@ -55,7 +55,7 @@ I decompiled the apk to check if they are hard coding the text in TextView but I
     <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" app:srcCompat="@android:drawable/ic_dialog_email" />
 </android.support.design.widget.CoordinatorLayout>
 ```
-activity_main.xml includes ```xml <include layout="@layout/content_main" />```
+activity_main.xml includes ```<include layout="@layout/content_main" />```
 
 let's check content_main.xml
 
@@ -70,5 +70,6 @@ let's check content_main.xml
     <ImageView android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/flag" />
 </LinearLayout>
 ```
-in this content_main.xml we see an interesting TextView whose text is  <b>d4rk{Welcome_to_Android_World}c0de
+in this content_main.xml we see an interesting TextView whose text is d4rk{Welcome_to_Android_World}c0de
+    flag = <b>d4rk{Welcome_to_Android_World}c0de
 
