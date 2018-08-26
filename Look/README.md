@@ -16,7 +16,8 @@ This gave me an idea to check the activity_main in the layout folder.
 
 I used [jadx](https://github.com/skylot/jadx) for decompilation.
 
-```public class MainActivity extends AppCompatActivity {
+```java
+public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView((int) R.layout.activity_main);
@@ -39,5 +40,6 @@ I used [jadx](https://github.com/skylot/jadx) for decompilation.
         }
         return super.onOptionsItemSelected(item);
     }
-}```
+}
+```
 
