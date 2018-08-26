@@ -12,7 +12,6 @@ Well they asked to look closely and so I did.
 
 <img src="sc2.png" width="250">
 
-This gave me an idea to check the activity_main in the layout folder.
 
 I used [jadx](https://github.com/skylot/jadx) for decompilation.
 
