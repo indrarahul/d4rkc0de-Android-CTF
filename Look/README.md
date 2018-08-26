@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
 I decompiled the apk to check if they are hard coding the text in TextView but I was wrong. So they must have hardcoded in activity_main.xml so let's decompile the apk using [apktool](https://ibotpeaches.github.io/Apktool). you can use [apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio) too.
 
-```<?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
