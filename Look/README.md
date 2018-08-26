@@ -70,5 +70,6 @@ let's check content_main.xml
 </LinearLayout>
 ```
 in this content_main.xml we see an interesting TextView whose text is d4rk{Welcome_to_Android_World}c0de
-    flag = <b>d4rk{Welcome_to_Android_World}c0de
+
+flag = <b>d4rk{Welcome_to_Android_World}c0de
 
